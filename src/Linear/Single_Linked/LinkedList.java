@@ -87,7 +87,7 @@ public class LinkedList <T> implements Iterable<T> {
     public T remove(int i){
         //找到i位置的前一个结点
         Node pre=head;
-        for(int index=0;index<i;i++){
+        for(int index=0;index<i;index++){
             pre=pre.next;
         }
         //找到i位置的结点
